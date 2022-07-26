@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  3%;
   color: #FEF2BF;
 }
 
@@ -50,4 +50,17 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.btn-start {
+  padding: 24px 50px ;
+  background-color: #937DC2;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.btn-start:hover{
+  color: #FF9F29;
+  cursor: pointer;
 }

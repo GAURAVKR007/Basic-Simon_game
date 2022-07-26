@@ -4,6 +4,15 @@ var userClickedPattern = [];
 var level = 0;
 var started = false;
 
+$(".btn-start").on("click",function(){
+    if(started===false){
+        $("#level-title").text("Level " + level);
+        $(".btn-start").text("--");
+        nextSequence();
+        started = true;
+    }
+});
+
 $(document).keypress(function(event){
     if(started===false){
         $("#level-title").text("Level " + level);
@@ -90,6 +99,7 @@ function checkAnswer(currentLevel){
         level = 0;
         gamePattern = [];
         started = false;
+        $(".btn-start").text("Again");
       }
 
 
