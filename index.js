@@ -6,7 +6,7 @@ var started = false;
 
 $(".btn-start").on("click",function(){
     if(started===false){
-        $("#level-title").text("Level " + level);
+        // $("#level-title").text("Level " + level);
         $(".btn-start").text("--");
         nextSequence();
         started = true;
@@ -16,6 +16,7 @@ $(".btn-start").on("click",function(){
 $(document).keypress(function(event){
     if(started===false){
         $("#level-title").text("Level " + level);
+        $(".btn-start").text("--");
         nextSequence();
         started = true;
     }
