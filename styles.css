@@ -1,11 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  margin-top: 0;
+  padding-top: 0;
   text-align: center;
   background-color: #011F3F;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin:  3%;
   color: #FEF2BF;
 }
@@ -52,7 +59,7 @@ body {
   background-color: grey;
 }
 
-.btn-start {
+.btn-start_reset {
   padding: 24px 50px ;
   background-color: #937DC2;
   border-radius: 15px;
@@ -60,7 +67,15 @@ body {
   font-size: 1.4rem;
 }
 
-.btn-start:hover{
+.btn-start_reset:hover {
   color: #FF9F29;
   cursor: pointer;
+}
+
+.btn1 {
+  margin-right: 27px;
+}
+
+.btn2 {
+  margin-left: 27px;
 }
