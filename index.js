@@ -33,6 +33,7 @@ $(document).keypress(function(event){
     if(started===false){
         $("#level-title").text("Level " + level);
         $(".btn-start").text("Reset");
+        $(".btn2").hide();
         nextSequence();
         started = true;
     }
